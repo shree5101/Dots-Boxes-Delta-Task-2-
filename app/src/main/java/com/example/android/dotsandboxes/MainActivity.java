@@ -40,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
                 Intent gameIntent = new Intent(MainActivity.this, GameActivity.class);
-                gameIntent.putExtra("input_rows", inputRows);
-                gameIntent.putExtra("input_columns", inputColumns);
                 startActivity(gameIntent);
             }
         });

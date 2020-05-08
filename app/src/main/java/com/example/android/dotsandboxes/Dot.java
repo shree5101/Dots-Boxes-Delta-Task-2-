@@ -2,19 +2,19 @@ package com.example.android.dotsandboxes;
 
 public class Dot {
 
-    private float xOfDot;
-    private float yOfDot;
+    private static float xOfDot;
+    private static float yOfDot;
 
     public Dot(float x, float y) {
         xOfDot = x;
         yOfDot = y;
     }
 
-    public float getxOfDot() {
+    public static float getxOfDot() {
         return xOfDot;
     }
 
-    public float getyOfDot() {
+    public static float getyOfDot() {
         return yOfDot;
     }
 }

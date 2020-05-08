@@ -12,8 +12,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
         android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"
         android:text="Dots and Boxes"
         android:textSize="38sp" />
+
 
     <EditText
         android:id="@+id/rows_edit_text_view"
@@ -22,7 +24,9 @@
         android:layout_marginLeft="60dp"
         android:layout_marginTop="290dp"
         android:hint="Enter Rows"
-        android:inputType="number" />
+        android:inputType="number"
+        android:textAlignment="center" />
+
 
     <EditText
         android:id="@+id/column_edit_text_view"
@@ -32,7 +36,8 @@
         android:layout_marginTop="290dp"
         android:layout_marginRight="60dp"
         android:hint="Enter Columns"
-        android:inputType="number" />
+        android:inputType="number"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/start_game_button"
