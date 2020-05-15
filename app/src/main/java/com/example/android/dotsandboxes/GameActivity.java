@@ -14,14 +14,13 @@ public class GameActivity extends AppCompatActivity {
 
     //Inflating objects and Layout.
     RelativeLayout gameRelativeLayout;
-    TextView playerScore1, playerScore2;
+
     //Declaring variables.
     float x_touched, y_touched;
     public static int count = 1;
     //Declaring line and player win arrays.
     public static int[][] horizontal_lines;
     public static int[][] vertical_lines;
-    public static int[] players_win;
 
     @SuppressLint("ClickableViewAccessibility")
     @Override
@@ -31,8 +30,6 @@ public class GameActivity extends AppCompatActivity {
 
         //Finding and assigning layouts to the views
         gameRelativeLayout = findViewById(R.id.game_relative_layout);
-        playerScore1 = findViewById(R.id.player_1_score);
-        playerScore2 = findViewById(R.id.player_2_score);
 
         count = 0;
 
